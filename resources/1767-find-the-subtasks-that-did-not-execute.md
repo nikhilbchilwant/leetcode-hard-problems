@@ -1,0 +1,12 @@
+# 1767. Find the Subtasks That Did Not Execute
+
+> Source: https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/
+
+> AlgoMonster does not have a page for this problem number; this file contains the LeetCode statement only.
+
+**Difficulty:** Hard  
+**LeetCode topics:** Database
+
+## Problem Statement
+
+

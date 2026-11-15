@@ -1,0 +1,59 @@
+# 2916. Subarrays Distinct Element Sum of Squares II
+
+> Source: https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/
+
+> AlgoMonster does not have a page for this problem number; this file contains the LeetCode statement only.
+
+**Difficulty:** Hard  
+**LeetCode topics:** Array, Hash Table, Binary Indexed Tree, Segment Tree
+
+## Problem Statement
+
+You are given a **0-indexed **integer array `nums`.
+
+The **distinct count** of a subarray of `nums` is defined as:
+
+	- Let `nums[i..j]` be a subarray of `nums` consisting of all the indices from `i` to `j` such that `0 
+
+Return *the sum of the **squares** of **distinct counts** of all subarrays of *`nums`.
+
+Since the answer may be very large, return it **modulo** `109 + 7`.
+
+A subarray is a contiguous **non-empty** sequence of elements within an array.
+
+ 
+
+**Example 1:**
+
+```text
+Input: nums = [1,2,1]
+Output: 15
+Explanation: Six possible subarrays are:
+[1]: 1 distinct value
+[2]: 1 distinct value
+[1]: 1 distinct value
+[1,2]: 2 distinct values
+[2,1]: 2 distinct values
+[1,2,1]: 2 distinct values
+The sum of the squares of the distinct counts in all subarrays is equal to 12 + 12 + 12 + 22 + 22 + 22 = 15.
+```
+
+**Example 2:**
+
+```text
+Input: nums = [2,2]
+Output: 3
+Explanation: Three possible subarrays are:
+[2]: 1 distinct value
+[2]: 1 distinct value
+[2,2]: 1 distinct value
+The sum of the squares of the distinct counts in all subarrays is equal to 12 + 12 + 12 = 3.
+```
+
+ 
+
+**Constraints:**
+
+	- `1 5`
+
+	- `1 5`
